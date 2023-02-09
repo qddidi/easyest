@@ -1,0 +1,9 @@
+lockfileVersion: 5.4
+
+importers:
+
+  packages/b:
+    specifiers:
+      '@easyest/a': workspace:^1.0.0
+    dependencies:
+      '@easyest/a': link:../a
