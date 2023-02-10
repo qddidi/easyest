@@ -11,9 +11,12 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
     "less": "^4.1.3",
     "typescript": "^4.9.5",
     "unplugin-vue-define-options": "^0.12.2",
+    "vite": "^4.1.1",
+    "vite-plugin-dts": "^1.4.1",
     "vue": "^3.2.36"
   }
 }
