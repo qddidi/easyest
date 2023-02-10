@@ -4,6 +4,7 @@
     "jsx": "preserve",
     "strict": true,
     "target": "ES2015",
+    "suppressImplicitAnyIndexErrors": true,
     "module": "ESNext",
     "skipLibCheck": true,
     "esModuleInterop": true,
