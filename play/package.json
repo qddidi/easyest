@@ -15,6 +15,6 @@
   },
   "dependencies": {
     "@easyest/components": "workspace:^1.0.0",
-    "easyesttest": "workspace:^1.0.0"
+    "easyest": "workspace:^1.0.0"
   }
 }

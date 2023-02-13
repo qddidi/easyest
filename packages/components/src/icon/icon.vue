@@ -1,5 +1,5 @@
 <template>
-  <div class="ea-icon">Icon</div>
+  <div class="ea-icon">Icon1</div>
 </template>
 
 <script lang="ts" setup>

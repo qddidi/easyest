@@ -40,11 +40,11 @@ importers:
     specifiers:
       '@easyest/components': workspace:^1.0.0
       '@vitejs/plugin-vue': ^4.0.0
-      easyesttest: workspace:^1.0.0
+      easyest: workspace:^1.0.0
       vite: ^4.1.1
     dependencies:
       '@easyest/components': link:../packages/components
-      easyesttest: link:../packages/easyest
+      easyest: link:../packages/easyest
     devDependencies:
       '@vitejs/plugin-vue': 4.0.0_vite@4.1.1
       vite: 4.1.1

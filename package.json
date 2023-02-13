@@ -5,7 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "build:easyest": "gulp -f packages/components/script/build/index.ts"
+    "build:easyest": "gulp -f packages/components/script/build/index.ts",
+    "publish:easyest": "pnpm run -f ./packages/components/easyest release"
   },
   "keywords": [],
   "author": "",
