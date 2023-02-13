@@ -14,6 +14,7 @@
     "vite": "^4.1.1"
   },
   "dependencies": {
-    "@easyest/components": "workspace:^1.0.0"
+    "@easyest/components": "workspace:^1.0.0",
+    "easyesttest": "workspace:^1.0.0"
   }
 }

@@ -5,14 +5,22 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:easyest": "gulp -f packages/components/script/build/index.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/gulp": "^4.0.10",
+    "@types/gulp-autoprefixer": "^0.0.33",
+    "@types/gulp-less": "^0.0.32",
+    "@types/node": "^18.13.0",
     "@vitejs/plugin-vue": "^4.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-less": "^5.0.0",
     "less": "^4.1.3",
+    "sucrase": "^3.29.0",
     "typescript": "^4.9.5",
     "unplugin-vue-define-options": "^0.12.2",
     "vite": "^4.1.1",
