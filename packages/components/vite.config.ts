@@ -1,6 +1,7 @@
 import { defineConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
 import dts from "vite-plugin-dts";
+// @ts-ignore
 import DefineOptions from "unplugin-vue-define-options/vite";
 export default defineConfig({
   build: {
@@ -37,17 +38,18 @@ export default defineConfig({
     },
     lib: {
       entry: "./index.ts",
+      name: "easyest",
     },
   },
   plugins: [
     vue(),
-    DefineOptions(),
     dts({
-      entryRoot: "./src",
+      entryRoot: "src",
       outputDir: ["../easyest/es/src", "../easyest/lib/src"],
       //指定使用的tsconfig.json为我们整个项目根目录下,如果不配置,你也可以在components下新建tsconfig.json
       tsConfigFilePath: "../../tsconfig.json",
     }),
+    DefineOptions(),
     {
       name: "style",
       generateBundle(config, bundle) {
