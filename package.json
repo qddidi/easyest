@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "build:easyest": "gulp -f packages/components/script/build/index.ts",
-    "publish:easyest": "pnpm run -f ./packages/components/easyest release"
+    "publish:easyest": "gulp -f packages/components/script/publish/index.ts"
   },
   "keywords": [],
   "author": "",
