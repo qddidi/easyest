@@ -4,8 +4,6 @@ import dts from "vite-plugin-dts";
 import DefineOptions from "unplugin-vue-define-options/vite";
 export default defineConfig({
   build: {
-    //打包文件目录
-    outDir: "es",
     //压缩
     //minify: false,
     rollupOptions: {
