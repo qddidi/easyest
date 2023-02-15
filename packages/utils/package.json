@@ -1,6 +1,6 @@
 {
   "name": "@easyest/utils",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "./dist/lib/index.js",
   "module": "./dist/es/index.js",
   "description": "",
