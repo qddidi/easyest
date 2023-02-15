@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "build:easyest": "gulp -f packages/components/script/build/index.ts",
-    "publish:easyest": "gulp -f packages/components/script/publish/index.ts"
+    "publish:easyest": "gulp -f packages/components/script/publish/index.ts",
+    "publish:easayestutils": "gulp -f packages/utils/publish/index.ts"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +17,7 @@
     "@types/gulp-autoprefixer": "^0.0.33",
     "@types/gulp-less": "^0.0.32",
     "@types/node": "^18.13.0",
+    "@vitejs/plugin-legacy": "^4.0.1",
     "@vitejs/plugin-vue": "^4.0.0",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",

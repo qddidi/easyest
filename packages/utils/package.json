@@ -1,12 +1,16 @@
 {
-  "name": "utils",
+  "name": "@easyest/utils",
   "version": "1.0.0",
+  "main": "./dist/lib/index.js",
+  "module": "./dist/es/index.js",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [],
+  "files": [
+    "dist"
+  ],
   "author": "",
-  "license": "ISC"
+  "license": "MIT",
+  "scripts": {
+    "build": "vite build"
+  }
 }
