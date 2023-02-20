@@ -21,5 +21,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/qddidi/easyest"
+  },
+  "dependencies": {
+    "@easyest/utils": "workspace:^1.0.0"
   }
 }
