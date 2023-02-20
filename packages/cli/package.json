@@ -1,6 +1,6 @@
 {
   "name": "create-easyest",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "bin": "index.js",
   "keywords": [],
@@ -12,9 +12,7 @@
     "command-line-args": "^5.2.1",
     "download-git-repo": "^3.0.2",
     "ora": "^6.1.2",
-    "prompts": "^2.4.2"
-  },
-  "devDependencies": {
+    "prompts": "^2.4.2",
     "command-line-usage": "^6.1.3"
   }
 }

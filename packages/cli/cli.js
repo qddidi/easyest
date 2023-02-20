@@ -50,8 +50,8 @@ const promptsOptions = [
     name: 'template',
     message: '请选择一个模板',
     choices: [
-      { title: 'kitty-ui', value: 0 },
-      { title: 'easyest', value: 1 }
+      { title: 'kitty-ui', value: 1 },
+      { title: 'easyest', value: 2 }
     ]
   }
 ]
@@ -63,12 +63,10 @@ const remoteList = {
   1: "https://gitee.com/geeksdidi/kittyui.git",
   2: 'https://github.com/qddidi/easyest.git'
 }
-const branch = 'master'
-
 const getUserInfo = async () => {
   const res = await prompts(promptsOptions)
   if (!res.name || !res.template) return
-  gitClone(`direct:${remoteList[res.template]}#${branch}`, res.name, { clone: true })
+  gitClone(`direct:${remoteList[res.template]}`, res.name, { clone: true })
 }
 const runOptions = () => {
   if (options.version) {
