@@ -23,6 +23,6 @@
     "url": "https://github.com/qddidi/easyest"
   },
   "dependencies": {
-    "@easyest/utils": "workspace:^1.0.0"
+    "@easyest/utils": "^1.0.2"
   }
 }
