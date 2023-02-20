@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Button>主要按钮</Button>
+    <ea-button>123</ea-button>
   </div>
 </template>
 <script lang="ts" setup>

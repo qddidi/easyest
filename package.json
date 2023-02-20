@@ -19,6 +19,7 @@
     "@types/node": "^18.13.0",
     "@vitejs/plugin-legacy": "^4.0.1",
     "@vitejs/plugin-vue": "^4.0.0",
+    "@vue/runtime-core": "^3.2.47",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
     "gulp-less": "^5.0.0",
