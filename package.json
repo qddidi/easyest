@@ -7,7 +7,11 @@
   "scripts": {
     "build:easyest": "gulp -f packages/components/script/build/index.ts",
     "publish:easyest": "gulp -f packages/components/script/publish/index.ts",
-    "publish:easayestutils": "gulp -f packages/utils/publish/index.ts"
+    "publish:easayestutils": "gulp -f packages/utils/publish/index.ts",
+    "docs:dev": "pnpm run --filter site docs:dev",
+    "docs:build": "pnpm run --filter site docs:build",
+    "docs:deploy": "pnpm run --filter site docs:deploy",
+    "easyest:dev": "pnpm run --filter ./play dev"
   },
   "keywords": [],
   "author": "",

@@ -1,18 +1,20 @@
 export default {
+    title: 'Easyest',
     base: process.env.NODE_ENV === 'production' ? '/easyest/' : '/',
     themeConfig: {
+
         nav: [
-            { text: "指南", link: "/guild/installation" },
-            { text: "组件", link: "/components/button/" },
+            { text: "文档", link: "/guild/introduce" }
+
         ],
         sidebar: {
-            "/guild/": [
+            "/": [
                 {
-                    text: "基础",
+                    text: "引入",
                     items: [
                         {
-                            text: "安装",
-                            link: "/guild/installation",
+                            text: "介绍",
+                            link: "/guild/introduce",
                         },
                         {
                             text: "快速开始",
@@ -21,11 +23,24 @@ export default {
                     ],
                 },
                 {
-                    text: "进阶",
+                    text: "开发",
                     items: [
                         {
-                            text: "xx",
-                            link: "/xx",
+                            text: "目录结构",
+                            link: "/develop/",
+                        },
+                        {
+                            text: "组件开发",
+                            link: "/develop/component",
+                        },
+                        {
+                            text: "全局组件",
+                            link: "/develop/global",
+                        },
+
+                        {
+                            text: "打包发布",
+                            link: "/develop/build",
                         },
                     ],
                 },

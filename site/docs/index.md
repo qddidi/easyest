@@ -2,11 +2,11 @@
 layout: home
 
 title: Easyest
-titleTemplate: 一个Vue3组件库
+titleTemplate: 一个快速搭建Vue3组件库的框架
 
 hero:
   name: Easyest
-  text: 一个Vue3组件库
+  text: 一个快速搭建Vue3组件库的框架
   tagline: 让你的组件库开发更简单
   image:
     /src: /logo.png
