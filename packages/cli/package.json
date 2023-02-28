@@ -7,6 +7,10 @@
   "author": "",
   "type": "module",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qddidi/easyest"
+  },
   "dependencies": {
     "chalk": "^5.2.0",
     "command-line-args": "^5.2.1",
