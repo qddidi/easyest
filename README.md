@@ -16,7 +16,7 @@
 
 ## 技术交流群
 
-<a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=crNHhLZYUpx3MHdlzD2r3NcE93WKt_w7&jump_from=webapi&authKey=4KF8ltIhPHIbXHudldjvq7Q/W6COfs+ycjKTRmIquQsJL0nCy+gU6CGb53mGpIMc"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="Vue3组件库框架Easyest" title="Vue3组件库框架Easyest">768732857</a>
+点击<a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=crNHhLZYUpx3MHdlzD2r3NcE93WKt_w7&jump_from=webapi&authKey=4KF8ltIhPHIbXHudldjvq7Q/W6COfs+ycjKTRmIquQsJL0nCy+gU6CGb53mGpIMc">768732857</a> 加群
 
 ## 了解更多
 
