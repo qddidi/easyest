@@ -1,0 +1,18 @@
+{
+  "name": "create-easyest",
+  "version": "1.0.1",
+  "description": "",
+  "bin": "index.js",
+  "keywords": [],
+  "author": "",
+  "type": "module",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "command-line-args": "^5.2.1",
+    "download-git-repo": "^3.0.2",
+    "ora": "^6.1.2",
+    "prompts": "^2.4.2",
+    "command-line-usage": "^6.1.3"
+  }
+}

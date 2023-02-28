@@ -1,8 +1,9 @@
 <template>
   <div>
-    <Button type="primary">主要按钮</Button>
+    <ea-button>按钮</ea-button>
+    <Button>123</Button>
   </div>
 </template>
 <script lang="ts" setup>
-import { Button } from "@easyest/components";
+import { Button } from "easyest";
 </script>
