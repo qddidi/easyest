@@ -1,14 +1,12 @@
-import commandLineArgs from "command-line-args"
-import commandLineUsage from "command-line-usage"
-import gitClone from "./utils/gitClone.js"
-import prompts from "prompts"
-import { readFile } from 'fs/promises'
+import commandLineArgs from 'command-line-args';
+import commandLineUsage from 'command-line-usage';
+import gitClone from './utils/gitClone.js';
+import prompts from 'prompts';
+import { readFile } from 'fs/promises';
 
 const pkg = JSON.parse(
-  await readFile(
-    new URL('./package.json', import.meta.url)
-  )
-)
+  await readFile(new URL('./package.json', import.meta.url))
+);
 //配置命令参数
 const optionDefinitions = [
   { name: 'version', alias: 'v', type: Boolean },
@@ -19,7 +17,7 @@ const optionDefinitions = [
 const helpSections = [
   {
     header: 'create-easyest',
-    content: '一个快速生成组件库搭建环境的脚手架',
+    content: '一个快速生成组件库搭建环境的脚手架'
   },
   {
     header: 'Options',
@@ -28,16 +26,16 @@ const helpSections = [
         name: 'version',
         alias: 'v',
         typeLabel: '{underline boolean}',
-        description: '版本号',
+        description: '版本号'
       },
       {
         name: 'help',
         alias: 'h',
         typeLabel: '{underline boolean}',
-        description: '帮助',
+        description: '帮助'
       }
-    ],
-  },
+    ]
+  }
 ];
 const promptsOptions = [
   {
@@ -46,7 +44,7 @@ const promptsOptions = [
     message: '请输入项目名称'
   },
   {
-    type: 'select',//单选
+    type: 'select', //单选
     name: 'template',
     message: '请选择一个模板',
     choices: [
@@ -54,34 +52,28 @@ const promptsOptions = [
       { title: 'easyest', value: 2 }
     ]
   }
-]
+];
 const options = commandLineArgs(optionDefinitions);
 
-
-
 const remoteList = {
-  1: "https://gitee.com/geeksdidi/kittyui.git",
+  1: 'https://gitee.com/geeksdidi/kittyui.git',
   2: 'https://github.com/qddidi/easyest.git'
-}
+};
 const getUserInfo = async () => {
-  const res = await prompts(promptsOptions)
-  if (!res.name || !res.template) return
-  gitClone(`direct:${remoteList[res.template]}`, res.name, { clone: true })
-}
+  const res = await prompts(promptsOptions);
+  if (!res.name || !res.template) return;
+  gitClone(`direct:${remoteList[res.template]}`, res.name, { clone: true });
+};
 const runOptions = () => {
   if (options.version) {
-    console.log(`v${pkg.version}`)
-    return
+    console.log(`v${pkg.version}`);
+    return;
   }
   if (options.help) {
-    console.log(commandLineUsage(helpSections))
-    return
+    console.log(commandLineUsage(helpSections));
+    return;
   }
-  getUserInfo()
-}
+  getUserInfo();
+};
 
-runOptions()
-
-
-
-
+runOptions();
