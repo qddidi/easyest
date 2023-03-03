@@ -23,3 +23,35 @@
 ## 技术交流群
 
 点击<a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=crNHhLZYUpx3MHdlzD2r3NcE93WKt_w7&jump_from=webapi&authKey=4KF8ltIhPHIbXHudldjvq7Q/W6COfs+ycjKTRmIquQsJL0nCy+gU6CGb53mGpIMc">768732857</a> 加群
+
+## 快速启动
+
+- 安装 pnpm
+
+```
+npm install pnpm -g
+```
+
+- 安装依赖
+
+```
+pnpm install
+```
+
+- 打包组件库与工具库
+
+```
+pnpm run build:easyest
+```
+
+- 启动测试项目
+
+```
+pnpm run easyest:dev
+```
+
+- 启动静态文档站点
+
+```
+pnpm run docs:dev
+```
