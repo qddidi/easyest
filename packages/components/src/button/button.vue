@@ -18,3 +18,8 @@ const buttonStyle = computed(() => {
   return { [`ea-button--${buttonProps.type}`]: buttonProps.type };
 });
 </script>
+<style lang="less">
+.a {
+  color: red;
+}
+</style>
