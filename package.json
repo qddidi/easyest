@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "build:easyest": "gulp -f packages/components/script/build/index.ts",
+    "build:easyest": "gulp -f packages/components/script/build/index.ts & pnpm run --filter ./packages/utils build",
     "publish:easyest": "gulp -f packages/components/script/publish/index.ts",
     "publish:easayestutils": "gulp -f packages/utils/publish/index.ts",
     "docs:dev": "pnpm run --filter site docs:dev",
