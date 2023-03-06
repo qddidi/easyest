@@ -13,6 +13,10 @@ export default (remote, name, option) => {
         return;
       }
       downSpinner.succeed(chalk.green('模板下载成功！'));
+      console.log(chalk.green(`cd ${name}\r\n`));
+      console.log(chalk.blue('pnpm install\r\n'));
+      console.log('pnpm run build:easyest\r\n');
+      console.log('pnpm run easyest:dev\r\n');
       resolve();
     });
   });
