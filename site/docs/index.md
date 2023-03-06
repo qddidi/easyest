@@ -14,7 +14,7 @@ hero:
   actions:
     - theme: brand
       text: 开始
-      link: /guide/introduce
+      link: /guild/introduce
     - theme: alt
       text: 在 GitHub 上查看
       link: https://github.com/qddidi/easyest
