@@ -18,4 +18,4 @@ git commit -m 'deploy'
 # 如果是部署到 https://<USERNAME>.github.io/<REPO>
 git push -u origin master
 
-cd -
+# cd -
