@@ -5,5 +5,5 @@
   </div>
 </template>
 <script lang="ts" setup>
-import { Button } from 'easyest';
+import { Button } from '@easyest/components';
 </script>
