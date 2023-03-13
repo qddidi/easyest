@@ -4,12 +4,17 @@
   "description": "",
   "main": "./index.ts",
   "scripts": {
-    "build": "vite build"
+    "build": "vite build",
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@easyest/utils": "workspace:^1.0.0"
+  },
+  "devDependencies": {
+    "@vitest/coverage-c8": "^0.29.2"
   }
 }
