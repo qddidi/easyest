@@ -1,9 +1,9 @@
-import delPath from "../utils/delpath";
-import { series, parallel, src, dest } from "gulp";
-import { pkgPath, componentPath } from "../utils/paths";
-import less from "gulp-less";
-import autoprefixer from "gulp-autoprefixer";
-import run from "../utils/run";
+import delPath from '../utils/delpath';
+import { series, parallel, src, dest } from 'gulp';
+import { pkgPath, componentPath } from '../utils/paths';
+import less from 'gulp-less';
+import autoprefixer from 'gulp-autoprefixer';
+import run from '../utils/run';
 //删除easyest
 
 export const removeDist = () => {
@@ -21,7 +21,7 @@ export const buildStyle = () => {
 
 //打包组件
 export const buildComponent = async () => {
-  run("pnpm run build", componentPath);
+  run('pnpm run build', componentPath);
 };
 export default series(
   async () => removeDist(),

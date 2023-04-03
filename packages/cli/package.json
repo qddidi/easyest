@@ -1,12 +1,19 @@
 {
   "name": "create-easyest",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "",
   "bin": "index.js",
-  "keywords": [],
+  "keywords": [
+    "easyest",
+    "vue3组件库"
+  ],
   "author": "",
   "type": "module",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qddidi/easyest"
+  },
   "dependencies": {
     "chalk": "^5.2.0",
     "command-line-args": "^5.2.1",

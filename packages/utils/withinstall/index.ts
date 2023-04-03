@@ -1,4 +1,4 @@
-import type { App, Plugin } from "vue";
+import type { App, Plugin } from 'vue';
 export type SFCWithInstall<T> = T & Plugin;
 export default <T>(comp: T) => {
   (comp as SFCWithInstall<T>).install = (app: App) => {
