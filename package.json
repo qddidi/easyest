@@ -5,7 +5,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "publish": "ts-node --esm packages/scripts/version-bump.ts"
+    "play:dev": "pnpm run --filter ./packages/play dev",
+    "build:lib": "pnpm run --filter ./packages/components build",
+    "publish:lib": "ts-node --esm packages/scripts/version-bump.ts"
   },
   "keywords": [],
   "author": "",
