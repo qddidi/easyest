@@ -1,0 +1,37 @@
+{
+  "name": "easyest",
+  "version": "3.0.1",
+  "description": "",
+  "main": "./dist/lib/index.js",
+  "module": "./dist/es/index.mjs",
+  "types": "./dist/types/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rimraf dist && vite build"
+  },
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "keywords": [
+    "组件库",
+    "vue3",
+    "vite"
+  ],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.8.0",
+  "devDependencies": {
+    "rimraf": "^6.0.1",
+    "vite-plugin-dts": "^4.5.3",
+    "vite-plugins-easyest": "workspace:^"
+  },
+  "dependencies": {
+    "element-plus": "^2.9.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qddidi/easyest.git"
+  }
+}

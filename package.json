@@ -1,0 +1,28 @@
+{
+  "name": "easyest",
+  "version": "2.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "publish": "ts-node --esm packages/scripts/version-bump.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.8.0",
+  "dependencies": {
+    "@vitejs/plugin-vue": "^5.2.3",
+    "sass": "^1.86.3",
+    "typescript": "^5.8.3",
+    "vite": "^6.2.5",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@types/semver": "^7.7.0",
+    "semver": "^7.7.1",
+    "ts-node": "^10.9.2",
+    "vite-plugin-dts": "^4.5.3"
+  }
+}
