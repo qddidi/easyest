@@ -11,7 +11,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "packageManager": "pnpm@10.8.0",
   "dependencies": {
     "@vitejs/plugin-vue": "^5.2.3",

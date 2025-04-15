@@ -30,13 +30,13 @@ pnpm build:lib
 pnpm publish:lib components
 
 # 发布组件库(指定patch major minor版本)
-pnpm publish:lib components patch(可选)
+pnpm publish:lib components patch | major | minor
 
 # 发布其它包如plugins
-pnpm publish:lib plugins patch(可选)
+pnpm publish:lib plugins patch | major | minor
 
 # 发布所有包
-pnpm publish:lib all patch(可选)
+pnpm publish:lib all patch | major | minor
 
 ```
 
